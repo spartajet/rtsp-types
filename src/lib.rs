@@ -120,7 +120,7 @@ mod message_ref;
 pub(crate) use message_ref::*;
 mod nom_extensions;
 mod parser;
-mod serializer;
+pub mod serializer;
 
 pub mod headers;
 pub use headers::{HeaderName, HeaderValue, Headers};
